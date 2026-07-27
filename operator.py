@@ -1,0 +1,27 @@
+#  airthmetic operators
+a=float(input("enter the first number:"))
+b=float(input("enter the second number:"))
+print("sum:",a+b)
+print("subtraction:",a-b)
+print("multiplication:",a*b)
+print("division:",a/b)
+print("modulus:",a%b)
+print("exponent:",a**b)
+# relational operators
+print("equal to:",a==b)
+print("not equal to:",a!=b)
+print("greater than:",a>b)
+print("less than:",a<b)
+print("greater than or equal to:",a>=b)
+print("less than or equal to:",a<=b)
+# logical operators
+print("and:",a>10 and b>10)
+print("or:",a>10 or b>10)
+print("not:",not(a>10))
+# assignment operators
+print("a+=b:",a+b)
+print("a-=b:",a-b)
+print("a*=b:",a*b)
+print("a/=b:",a/b)
+print("a%=b:",a%b)
+print("a**=b:",a**b)
